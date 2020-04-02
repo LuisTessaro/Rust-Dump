@@ -34,6 +34,7 @@ fn login(user: &User) -> u64 {
     return user.login_count + 1;
 }
 
+// {:#?} can be used to print the object formatted
 fn print_user(user: &User) {
     println!(
         "{:?}",
